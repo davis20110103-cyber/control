@@ -1,0 +1,23 @@
+
+.footer {
+	color: #899b9a;
+}
+
+.footer_cont {
+	display: flex;
+	min-height: 49px;
+	align-items: center;
+	justify-content: center;
+	background-color: #0b1919;
+}
+
+
+
+.footer p {
+	margin: 0;
+	background-color: #1d2f30;
+	text-align: center;
+}
+
+
+

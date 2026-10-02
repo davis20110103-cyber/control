@@ -1,0 +1,54 @@
+
+
+
+.banner_cont{
+  max-width: none;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 40px 80px; 
+  box-sizing: border-box;
+  background: url("../img/fon.png");  
+  background-size: cover;
+}
+
+.banner_text h1{
+  font-size: 48px;                
+  margin-bottom: 20px;          
+  font-weight: normal; 
+  color: white;   
+}
+
+.banner_text p{
+  font-size: 18px;
+  color: white;
+  max-width: 600px;           
+  line-height: 1.6;               
+  margin-bottom: 30px;            
+
+}
+
+.banner_text a{
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #bae249;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+
+
+.banner_text a:hover {
+  color: #d5ff6b;
+}
+
+
+
+.banner_text a:focus-visible {
+  outline: #bae249;
+ 
+}
+

@@ -1,0 +1,54 @@
+
+
+.help_cont{
+
+  max-width: none;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 40px 80px; 
+  box-sizing: border-box;
+  background: url("../img/fon.png");  
+  background-size: cover;
+
+}
+
+.help_text h1{
+  font-size: 48px;                
+  margin-bottom: 20px;          
+  font-weight: normal; 
+  color: white;   
+}
+
+.help_text p{
+  font-size: 18px;
+  color: white;
+  max-width: 800px;             
+  margin-bottom: 30px;            
+
+}
+
+.help_text a{
+    color: #BAE249;
+    list-style: none;
+}
+
+.help_text input{
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.help_text button{
+  padding: 10px 20px;
+  background-color: #BAE249;
+  color: #1D2F30;
+  border: none;
+  cursor: pointer;
+}
+
+.help_text button:hover{
+  background-color: #A0C93B;
+}
